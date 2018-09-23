@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  background-color: orangered;
+  width: 25%;
+  font-size: 1.7rem;
+  margin: 0 auto;
+  border: 2px grey solid;
+  overflow: hidden;
+  padding-left: 1rem
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+h1 span {
+  float: right;
+  display: inline-block;
+
+}
+
+h1 {
+
+}
+
+input {
+  width: 100%;
+}
